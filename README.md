@@ -1,5 +1,7 @@
 # Pixel Art Maker Project
 
+To view the poject visit https://rituraj567.github.io/Pixel-Art/
+
 Made with HTML5, CSS3, JavaScript and jQuery.
 
 Instructions:
