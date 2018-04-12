@@ -108,3 +108,10 @@ input[type="color"],inpu[type="color"]:hover{
     cursor:url("brush.png"),auto;
     transition: 0.3s ease;
 }
+
+footer span {
+	
+	color:red;
+	
+}
+
