@@ -29,12 +29,15 @@ h2:first-of-type {
 table,
 tr,
 td {
-    border: 1px solid black;
+    border: 1px solid #111;
+    box-shadow: 1px 1px 1px grey;
 }
 
 table {
     border-collapse: collapse;
     margin: 0 auto;
+    box-shadow:inset 2px 2px 4px grey, inset -2px -2px 4px grey;
+    
 }
 
 tr {
