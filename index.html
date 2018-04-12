@@ -4,22 +4,27 @@
     <title>Pixel Art Maker!</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link href="bootstrap-colorpicker-plus" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+   <link rel="shortcut icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
      <div id="particles-js"></div>
+
     <h1> Pixel Art Maker</h1>
 
-    <h2>Choose Grid Size</h2>
+    <h2 >Choose Grid Size</h2>
     <form id="sizePicker">
         Grid Height:
-        <input type="number" id="inputHeight" name="height" min="1" value="1">
+        <input type="number" id="inputHeight" name="height" min="1" value="10">
         Grid Width:
-        <input type="number" id="inputWeight" name="width" min="1" value="1">
-        <input type="submit" id="submit">
+        <input type="number" id="inputWeight" name="width" min="1" value="10">
+        <input type="submit" id="submit" class="add-normal">
+		<input type="submit" id="use-brush" value="Use Brush" class="add-brush">
+		<input type="submit" id="reset-brush" value="Eraser" class="add-eraser">
         
     </form>
-
+    
     <h2>Pick A Color</h2>
     <input type ="color" id="colorPicker">
 

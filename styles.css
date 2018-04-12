@@ -3,7 +3,8 @@
 body {
     text-align: center;
     font-family: Lato;
-    background: linear-gradient(to right, rgb(255, 0, 204), rgb(51, 51, 153));
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));
+	color:#fff;
 }
 
 
@@ -12,12 +13,13 @@ h1 {
     font-size: 70px;
     font-weight: 400;
     margin: 0.2em;
-    color:#27ae60;
+	
 }
 
 h2 {
     margin: 1em 0 1em;
-    color:#2dca6f;
+	
+    
 }
 
 h2:first-of-type {
@@ -46,15 +48,15 @@ input[type="number"],input[type="submit"]{
     border-radius: 100px;
     letter-spacing: 1px;
     margin:0 20px 0 10px;
-    background-color:#2ecc71;
-    border: 1px solid #2ecc71;
-    color:#f7f7f7;
+    background-color:#eee;
+    border: 1px solid #eee;
+    color:#000;
     transition: all 0.2s ease;
 }
 input[type="number"]:hover,input[type="submit"]:hover{
 
-    background-color:#2bbe69;
-    border: 1px solid #2bbe69;
+    background-color:#ddd;
+    border: 1px solid #ddd;
 }
 *:focus {
 	
@@ -66,9 +68,13 @@ td {
 }
 
 input[type=number] {
-    width: 6em;
+    width: 3em;
 }
 
+#use-brush,#reset-brush{
+	width: 10em;
+	
+}
 #particles-js {
     position: fixed;
     z-index: 50;
@@ -82,4 +88,23 @@ input[type=number] {
   input,td{
     position:relative;
     z-index:9999;
+}
+
+input[type="color"],inpu[type="color"]:hover{
+    cursor: normal;
+}
+
+.add-normal{
+
+    cursor:normal;
+}
+.add-eraser{
+    cursor: url("eraser.png"),auto;
+    transition: 0.3s ease;
+}
+
+.add-brush{
+    
+    cursor:url("brush.png"),auto;
+    transition: 0.3s ease;
 }
