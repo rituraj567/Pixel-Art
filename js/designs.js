@@ -41,13 +41,6 @@ $(this).css("background-color",color);
     
 });
 
-//Remove color when double clicked
-$('td').on("dblclick",function(e){
-    
-     
-    $(this).css("background-color","transparent");
-        
-    });
 	
 	//Use brush feature
 	$('#use-brush').hover(function(e){
@@ -65,6 +58,13 @@ $('td').on("dblclick",function(e){
   
 		$(this).css("background-color",color);
 		});
+
+		$('td').on("click",function(e){
+ 
+			$(this).css("background-color",color);
+	
+	
+			});
 	
   });
 	//Eraser feature
@@ -96,8 +96,6 @@ $('td').on("dblclick",function(e){
 	
 	
 }
-
-
 
 
 //Make a grid when user submit the button
